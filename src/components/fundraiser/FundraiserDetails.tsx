@@ -50,11 +50,11 @@ type Feature = {
   className?: string;
 };
 
-export const featureLabel = cn(
+const featureLabel = cn(
   "flex cursor-default items-center cursor-pointer justify-center gap-x-2 rounded bg-[#251600] px-4 py-3 text-sm font-medium leading-none text-white transition-colors hover:bg-[#251600]/80 "
 );
 
-export const features: Feature[] = [
+const features: Feature[] = [
   { icon: <Hurricane size={16} />, title: `Disaster` },
   { icon: <Baby size={16} />, title: `Children` },
   { icon: <BowlFood size={16} />, title: `Food crisis` },
