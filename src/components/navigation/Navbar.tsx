@@ -20,7 +20,7 @@ const Navbar = () => {
         <AnnouncementBar />
         <div className=" h-16 w-full justify-between  backdrop-blur-md bg-[#DCE1C7] pl-6 pr-6 flex items-center relative">
           <Link href={`/`} className=" font-bold text-[#251600] text-3xl">
-            Dona8
+            AfriCharity
           </Link>
 
           <div className=" hidden md:flex items-center text-base space-x-2">

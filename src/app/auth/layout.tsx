@@ -15,7 +15,7 @@ export default function AuthLayout({
       <div className="relative my-4 flex w-full flex-col justify-center gap-y-8 px-12 sm:mx-auto sm:basis-[420px] sm:px-0 lg:basis-[480px] lg:px-12">
         <div className="flex items-center justify-between">
           <Link href="/" className="h-24 w-24">
-            <div className=" w-5 h-5 font-bold text-4xl">Dona8</div>
+            <div className=" w-5 h-5 font-bold text-4xl">AfriCharity</div>
           </Link>
         </div>
 
